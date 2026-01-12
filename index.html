@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h3>Favorites⭐</h3>
+    <ul id="favList"></ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <h2>Weather App🌥️</h2>
+
+    <!-- Search Section -->
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <button onclick="SearchWeather()">Search</button>
+    <button onclick="addToFavorites()">Add to Favorites</button>
+
+    <!-- Weather Display -->
+    <div class="weather-box" id="weatherBox"></div>
+
+    <!-- Comparison Section -->
+    <div class="compare-box">
+      <h3>Compare Cities</h3>
+      <select id="city1"></select>
+      <select id="city2"></select>
+      <button onclick="compareWeather()">Compare</button>
+
+      <div class="compare" id="compareResult"></div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
