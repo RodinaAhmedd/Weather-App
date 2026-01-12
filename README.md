@@ -24,12 +24,12 @@ A vanilla JavaScript weather app with favorites and city comparison using OpenWe
 
 ## How It Works:
 
-1.City Search:Users enter a city name and click Search to get real-time weather data.
+1.City Search: Users enter a city name and click Search to get real-time weather data.
 
-2.Weather Display:The application displays temperature, humidity, wind speed, and weather condition.
+2.Weather Display: The application displays temperature, humidity, wind speed, and weather condition.
 
-3.Favorites Management:Users can add cities to favorites, view them from the sidebar, or remove them at any time.
+3.Favorites Management: Users can add cities to favorites, view them from the sidebar, or remove them at any time.
 
-4.City Comparison:Users can select two favorite cities and compare their weather data.
+4.City Comparison: Users can select two favorite cities and compare their weather data.
 
-5.Local Storage:Favorite cities are saved in localStorage and remain available after page reload.
+5.Local Storage: Favorite cities are saved in localStorage and remain available after page reload.
